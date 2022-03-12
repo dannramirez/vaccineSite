@@ -1,3 +1,11 @@
+@import "./emergencyContact.css";
+@import "./footer.css";
+@import "./header.css";
+@import "./main.css";
+@import "./preparationVaccine.css";
+@import "./vaccineLogo.css";
+@import "./whyVaccine.css";
+
 .container {
     display: grid;
     width: 100%;
