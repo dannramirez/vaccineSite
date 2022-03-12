@@ -1,0 +1,21 @@
+.emergencyContact {
+    grid-area: emergencyContact;
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-areas: "sectionA sectionB";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+
+.emergencyContact>div {
+    border: 1px dashed #f2c779;
+}
+
+.emergencyContact .sectionA {
+    grid-area: sectionA;
+}
+
+.emergencyContact .sectionB {
+    grid-area: sectionB;
+}

@@ -1,0 +1,21 @@
+.main {
+    grid-area: main;
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-areas: "sectionA sectionB";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+
+.main>div {
+    border: 1px dashed #82994f;
+}
+
+.main .sectionA {
+    grid-area: sectionA;
+}
+
+.main .sectionB {
+    grid-area: sectionB;
+}

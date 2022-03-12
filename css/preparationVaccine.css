@@ -1,0 +1,21 @@
+.preparationVaccine {
+    grid-area: preparationVaccine;
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-areas: "sectionA sectionB";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+
+.preparationVaccine>div {
+    border: 1px dashed #79f2dc;
+}
+
+.preparationVaccine .sectionA {
+    grid-area: sectionA;
+}
+
+.preparationVaccine .sectionB {
+    grid-area: sectionB;
+}
