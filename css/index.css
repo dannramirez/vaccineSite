@@ -1,0 +1,39 @@
+.container {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-areas: "header"
+    "main"
+    "vaccineLogo"
+    "whyVaccine"
+    "preparationVaccine"
+    "emergencyContact"
+    "footer";
+    grid-template-columns: 4fr;
+    grid-template-rows: 160px 1fr 1fr 1fr 1fr 1fr 80px;
+  }
+  .container > div {
+    border: 1px dashed #888;
+  }
+  
+  .header {
+    grid-area: header;
+  }
+  .main {
+    grid-area: main;
+  }
+  .vaccineLogo {
+    grid-area: vaccineLogo;
+  }
+  .whyVaccine {
+    grid-area: whyVaccine;
+  }
+  .preparationVaccine {
+    grid-area: preparationVaccine;
+  }
+  .emergencyContact {
+    grid-area: emergencyContact;
+  }
+  .footer {
+    grid-area: footer;
+  }
