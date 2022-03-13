@@ -1,5 +1,5 @@
 .main {
-    grid-area: main;
+    grid-area: 1 / 1 / 3 / 2;
     display: grid;
     width: 100%;
     height: 100%;
@@ -18,4 +18,13 @@
 
 .main .sectionB {
     grid-area: sectionB;
+    background: rgb(8,150,229);
+    background: linear-gradient(153deg, rgba(8,150,229,1) 0%, rgba(51,101,218,1) 100%);
+
+}
+
+#img_persona1{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
